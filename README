@@ -1,0 +1,73 @@
+NAME
+
+   SjisTk - Tk modules on Microsoft Windows with Sjis software
+
+SYNOPSIS
+
+   use Sjis 0.64;
+   use Tk;
+
+ABSTRACT
+
+   This software is Tk modules on Microsoft Windows with Sjis software.
+
+   This software helps you to transplant scripts from JPerl to Perl5.8
+   or later.
+
+INSTALLATION WITHOUT MAKE
+
+To install this software without make, type the following:
+
+   perl pMakefile.PL    --- pMakefile.PL makes "pmake.bat" only, and ...
+   pmake.bat
+   pmake.bat test
+
+   pmake.bat install    --- install to current using Perl
+
+   pmake.bat dist       --- make distribution package
+   pmake.bat ptar.bat   --- make perl script "ptar.bat"
+
+PROGRAM COMPOSITION
+
+   SjisTk::Button.pm
+   SjisTk::Canvas.pm
+   SjisTk::Checkbutton.pm
+   SjisTk::ColorEditor.pm
+   SjisTk::Dialog.pm
+   SjisTk::DialogBox.pm
+   SjisTk::Entry.pm
+   SjisTk::Frame.pm
+   SjisTk::Label.pm
+   SjisTk::LabFrame.pm
+   SjisTk::Listbox.pm
+   SjisTk::MainWindow.pm
+   SjisTk::Message.pm
+   SjisTk::Radiobutton.pm
+   SjisTk::ROText.pm
+   SjisTk::Scale.pm
+   SjisTk::Table.pm
+   SjisTk::Text.pm
+   SjisTk::Toplevel.pm
+
+DEPENDENCIES
+
+This software requires perl5.00503 or later.
+
+LICENSE AND COPYRIGHT
+
+This software is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself. See perlartistic.
+
+This software is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+TODO
+
+   SjisTk::Menu
+   SjisTk::MenuButton
+
+MAINTAINER
+
+This project was originated by INABA Hitoshi <ina@cpan.org>.
+
